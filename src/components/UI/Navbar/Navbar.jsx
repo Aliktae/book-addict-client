@@ -7,9 +7,6 @@ function Navbar(){
             <div className={classes.navbar}>
                 <a className={classes.logo} href="/"><h5 className={classes.logo}>BookAddict</h5></a>
                 <ul className={classes.navContent}>
-                    <li><a href="/about">About</a></li>
-                    <li><a href="/foryou">For You</a></li>
-                    <li><a href="/celebrity">Celebrity Picks</a></li>
                     <li><a href="/readlist">Reading Lists</a></li>
                 </ul>
                 <a className="cta" href="/login">

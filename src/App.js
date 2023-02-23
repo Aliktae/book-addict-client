@@ -4,7 +4,7 @@ import Homepage from "./pages/Homepage";
 import Registration from "./pages/Registration";
 
 import Login from "./pages/Login";
-import AboutPage from "./pages/AboutPage";
+import Profile from "./pages/UserPage";
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
           <Route path={"/"} element={<Homepage/>}/>
           <Route path={"/signup"} element={<Registration/>}/>
           <Route path={"/login"} element={<Login/>}/>
-          <Route path={"/about"} element={<AboutPage/>}/>
+            <Route path={"/profile"} element={<Profile/>}/>
         </Routes>
       </BrowserRouter>
   );

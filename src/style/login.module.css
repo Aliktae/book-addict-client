@@ -82,7 +82,8 @@ img{
     opacity: 0.8;
 }
 .center{
-    margin: 3rem;
+    margin-top: 13%;
+    margin-bottom: 5%;
     background: white;
 
     display: flex;
@@ -91,8 +92,8 @@ img{
     align-items: center;
     width: 450px;
     border-radius: 30px ;
-    /*box-shadow: black 0 0 10px 0.5px;*/
-    padding: 1.5rem;
+    box-shadow: black 0 0 10px 0.5px;
+    padding: 1rem;
 }
 
 
