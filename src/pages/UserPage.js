@@ -4,10 +4,10 @@ import "../style/user.css"
 function ProfilePage(props) {
     return(
         <>
-            <div className="content">
+            <div className="profile-content">
                 <h1 className="profileTitle">Welcome back to BookAddict, "Username"</h1>
-                <div className="row">
-                    <div className="column">
+                <div className="profile-row">
+                    <div className="profile-column">
                         <div className="favorites">
                             <h2>Your favorite books</h2>
                                <li>"Book Title", "Book Author"</li>
@@ -15,7 +15,7 @@ function ProfilePage(props) {
 
                         </div>
                     </div>
-                    <div className="column">
+                    <div className="profile-column">
                         <div className="finished">
                             <h2>Finished books list</h2>
                                 <li>"Book Title", "Book Author"</li>
