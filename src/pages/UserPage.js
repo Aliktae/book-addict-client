@@ -9,7 +9,7 @@ function ProfilePage(props) {
                 <div className="row">
                     <div className="column">
                         <div className="favorites">
-                            <h2>Favorite books list</h2>
+                            <h2>Your favorite books</h2>
                                <li>"Book Title", "Book Author"</li>
                             <li>"Book Title", "Book Author"</li>
 
