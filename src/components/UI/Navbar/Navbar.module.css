@@ -1,0 +1,71 @@
+
+.navbar li, .navbar a, .navbar button{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+    list-style: none;
+}
+
+.navbar{
+    box-shadow: black 0px -4px 10px 1px;
+
+    display: flex;
+    padding: 20px 30px;
+    background-color: #fff;
+    top: 0;
+    position: fixed;
+    z-index: 1200;
+    width: 100%;
+}
+
+.navContent{
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.logo{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 43px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.navContent li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.navContent li a{
+    transition: all 0.3s ease 0s;
+}
+
+.navContent li a:hover{
+    color: #C7AB9D ;
+}
+
+.navbar button{
+    padding: 5px 15px;
+    border: 2px solid #C7AB9D;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin-left: 20px;
+
+}
+
+.navbar button:hover{
+    background-color: #EBCFB2;
+}
+
+.banner{
+    width: 100%;
+}
